@@ -1,4 +1,5 @@
 import torch, torchvision
+from torch import nn, optim
 
 # The model is implemented on CPU
 model = torchvision.models.resnet18(pretrained=True)

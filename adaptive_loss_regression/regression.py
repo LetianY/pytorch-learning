@@ -69,6 +69,7 @@ for epoch in range(epochs):
     scale = adaptive.scale()[0, 0]
     print(f"Epoch {epoch}/{epochs}: Loss: {loss}, alpha: {alpha:.3f}, scale: {scale:.3f}")
     print('----------------------------------------------------------')
+    
 print('Finished Training')
 
 # Save Model

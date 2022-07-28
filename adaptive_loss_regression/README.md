@@ -5,9 +5,11 @@ The majority of the codes (or the installation method of the package) can be fou
 
 My implementation method is based on PyTorch, and this is my first simple project to construct model in pytorch for self-defined regression tasks. The dataset and features are removed, but the general procedure of training by including batch and epoch are useful.
 
+```
 @article{BarronCVPR2019,
   Author = {Jonathan T. Barron},
   Title = {A General and Adaptive Robust Loss Function},
   Journal = {CVPR},
   Year = {2019}
 }
+```
